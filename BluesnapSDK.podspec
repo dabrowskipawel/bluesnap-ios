@@ -1,5 +1,5 @@
 Pod::Spec.new do |spec|
-    spec.name         = "BlueSnapSDK"
+    spec.name         = "BluesnapSDK"
     spec.version      = "2.1.2"
     spec.source       = { :git => "https://github.com/bluesnap/bluesnap-ios.git", :tag => "v2.1.2" }
     spec.summary      = "An iOS SDK for Bluesnap "
