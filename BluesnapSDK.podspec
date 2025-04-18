@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
     spec.pod_target_xcconfig = { "CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES" => "YES" }
     spec.source_files = ["Sources/**/*.{h,m,swift}", "KountWrapper/**/*.{h,m,c,swift}", "Frameworks/XCFrameworks/KountDataCollector.xcframework/ios-arm64/Headers/KDataCollector.h", "Frameworks/XCFrameworks/KountDataCollector.xcframework/ios-arm64/Headers/KountAnalyticsViewController.h"]
     spec.public_header_files = ["Frameworks/XCFrameworks/KountDataCollector.xcframework/ios-arm64/Headers/KDataCollector.h", "Frameworks/XCFrameworks/KountDataCollector.xcframework/ios-arm64/Headers/KountAnalyticsViewController.h"]
-    spec.ios.vendored_frameworks = ["Frameworks/XCFrameworks/CardinalMobile.xcframework", "Frameworks/XCFrameworks/KountDataCollector.xcframework"]
+    spec.ios.vendored_frameworks = ["Frameworks/XCFrameworks/KountDataCollector.xcframework"]
     #spec.ios.vendored_libraries = ["Frameworks/XCFrameworks/KountDataCollector.xcframework/ios-arm64_x86_64-simulator/libKountDataCollector.a"]
     spec.exclude_files = ["Tests/**/*.*", "Frameworks/XCFrameworks/CardinalMobile.SDK runs properly on ios 18 /**/Headers/**"]
     spec.resource_bundles = {
