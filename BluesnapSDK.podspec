@@ -20,7 +20,7 @@ Pod::Spec.new do |spec|
     #spec.ios.vendored_libraries = ["Frameworks/XCFrameworks/KountDataCollector.xcframework/ios-arm64_x86_64-simulator/libKountDataCollector.a"]
     spec.exclude_files = ["Tests/**/*.*", "Frameworks/XCFrameworks/CardinalMobile.SDK runs properly on ios 18 /**/Headers/**"]
     spec.xcconfig = {
-      'FRAMEWORK_SEARCH_PATHS' => '$(PODS_ROOT)/Braintree/Frameworks/XCFrameworks',
+      'FRAMEWORK_SEARCH_PATHS' => '$(PODS_ROOT)/Braintree/ThreeDSecure/Frameworks',
       'OTHER_LDFLAGS' => '-framework CardinalMobile'
     }
     spec.resource_bundles = {
