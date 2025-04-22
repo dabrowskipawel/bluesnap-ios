@@ -21,7 +21,7 @@ Pod::Spec.new do |spec|
     spec.exclude_files = ["Tests/**/*.*", "Frameworks/XCFrameworks/CardinalMobile.SDK runs properly on ios 18 /**/Headers/**"]
     spec.xcconfig = {
       'FRAMEWORK_SEARCH_PATHS' => '$(PODS_ROOT)/Braintree/ThreeDSecure/Frameworks',
-      'OTHER_LDFLAGS' => '-framework CardinalMobile'
+      'OTHER_LDFLAGS' => '-framework CardinalMobile -ObjC'
     }
     spec.resource_bundles = {
         'BluesnapUI' => [
