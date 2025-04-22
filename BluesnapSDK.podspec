@@ -32,6 +32,6 @@ Pod::Spec.new do |spec|
             'Sources/**/PrivacyInfo.xcprivacy'
         ]
     }
-
+    spec.dependency 'Braintree/ThreeDSecure'
 end
 
